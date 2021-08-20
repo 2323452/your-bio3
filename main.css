@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, #006bffc7 0%, #006bffc7 0%, #006bffc7 0%, rgb(39, 39, 39) 100%);
+    color: #ffffff
+    border-radius: 0px;
+}
+
+.card {
+    background-color: #2F3136;
+    font-family: monospace;
+    height: 480px;
+    width: 800px;
+    border-radius: 40px;
+}
+
+.content {
+    padding: 0 20px 0 25px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    max-width: 150px;
+    border: 10px solid #2F3136;
+    border-radius: 5px;
+    margin-top: -35px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.social-github {
+    color: #00c4ff;text-shadow:    0 0 7px #006bffc7, 0px 0px 0px #4083ff, 0px 1px 0px #0014ffc7, 0px 1px 9px #1b00ff, -1px 1px 0px #0014ffc7, 1px 0px 0px #0014ffc7, -1px -1px 0px #0014ffc7
+}
+
+.social-discord {
+    color: #00c4ff;text-shadow:    0 0 7px #006bffc7, 0px 0px 0px #4083ff, 0px 1px 0px #0014ffc7, 0px 1px 9px #1b00ff, -1px 1px 0px #0014ffc7, 1px 0px 0px #0014ffc7, -1px -1px 0px #0014ffc7
+}
+
+.social-money {
+    color: #00c4ff;text-shadow:    0 0 7px #006bffc7, 0px 0px 0px #4083ff, 0px 1px 0px #0014ffc7, 0px 1px 9px #1b00ff, -1px 1px 0px #0014ffc7, 1px 0px 0px #0014ffc7, -1px -1px 0px #0014ffc7
+}
+
+.namee {
+    color: white;
+}
+
+
+.name {
+    font-size: 30px;
+    line-height: 0;
+    padding-top: 20px;
+    color: white;
+}
